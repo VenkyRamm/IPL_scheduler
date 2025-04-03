@@ -49,7 +49,7 @@ void initializeTeams() {
 void generateSchedule() {
     int day = 1, month = 4;
     int pairs[MAX_TEAMS][MAX_TEAMS] = {0};
-    int homeVenueUsed[MAX_TEAMS][MAX_TEAMS] = {0}; // Tracks home venue usage for fairness
+    int homeVenueUsed[MAX_TEAMS][MAX_TEAMS] = {0}; 
     int attempt = 0;
 
     while (matchCount < MAX_TEAMS * (MAX_TEAMS - 1)) {
